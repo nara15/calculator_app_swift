@@ -14,6 +14,7 @@
 		AE4849181FB2094D0021EA85 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE4849161FB2094D0021EA85 /* LaunchScreen.storyboard */; };
 		AE4849231FB2094E0021EA85 /* calculator_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4849221FB2094E0021EA85 /* calculator_appTests.swift */; };
 		AE48492E1FB2094E0021EA85 /* calculator_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE48492D1FB2094E0021EA85 /* calculator_appUITests.swift */; };
+		AE4849401FB21E7A0021EA85 /* CalculatorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE48493F1FB21E7A0021EA85 /* CalculatorModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		AE4849291FB2094E0021EA85 /* calculator_appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = calculator_appUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE48492D1FB2094E0021EA85 /* calculator_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = calculator_appUITests.swift; sourceTree = "<group>"; };
 		AE48492F1FB2094E0021EA85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE48493F1FB21E7A0021EA85 /* CalculatorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				AE4849141FB2094D0021EA85 /* Assets.xcassets */,
 				AE4849161FB2094D0021EA85 /* LaunchScreen.storyboard */,
 				AE4849191FB2094D0021EA85 /* Info.plist */,
+				AE48493F1FB21E7A0021EA85 /* CalculatorModel.swift */,
 			);
 			path = calculator_app;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE4849401FB21E7A0021EA85 /* CalculatorModel.swift in Sources */,
 				AE4849101FB2094D0021EA85 /* ViewController.swift in Sources */,
 				AE48490E1FB2094D0021EA85 /* AppDelegate.swift in Sources */,
 			);
