@@ -10,16 +10,37 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+    // Label to show the display.
+    @IBOutlet weak var display: UILabel!
+    
+    //  Flag to indicate if user is just typing.
+    var isUsertyping = false
+    
+    /**
+     *  Event to select a new digit. It can be a operation symbol as well.
+     **/
+    @IBAction func touchDigit(_ sender: UIButton)
+    {
+        let digit = sender.currentTitle!
+        
+        if isUsertyping
+        {
+            let currentlyDisplayed = display.text!
+            display.text = currentlyDisplayed + digit
+        }
+        else
+        {
+            display.text = digit
+            isUsertyping = true
+        }
+        
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    
+    @IBAction func reset(_ sender: UIButton) {
+        display.text = ""
     }
-
+    
+    
 
 }
 
